@@ -15,7 +15,6 @@ with directory
 
 Create a new directory for CDK project and initialize it
 
-
 mkdir static-website-cdk 
 cd static-website-cdk 
 cdk init app --language typescript
