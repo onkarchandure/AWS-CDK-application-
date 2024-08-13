@@ -1,14 +1,13 @@
 # AWS-CDK-application-
 AWS CDK application in TypeScript that deploys a static website
 
-To Create an AWS CDK application in TypeScript that deploys a static
-website using appropriate AWS services for hosting and content delivery follow the 
+To Create an AWS CDK application in TypeScript that deploys a static website using appropriate AWS services for hosting and content delivery follow the 
 below step by step guide to achieve the goal.
 
 1. Infrastructure as Code (IaC) Step: Install AWS CDK
 Make sure you have Node.js installed, 
 then install the AWS CDK globally:
-npm install -g aws-cdk
+
 
 2.Create a New CDK Project & Initialize 
 with directory 
@@ -20,12 +19,9 @@ cd static-website-cdk
 cdk init app --language typescript
 
 3.Add Dependencies / Packages Install the required AWS CDK packages / 
-plugins for S3 and AWS CloudFront 
-service
-npm install @aws-cdk/aws-s3 @awscdk/aws-s3-assets @aws-cdk/awscloudfront @aws-cdk/aws-cloudfrontorigins
+plugins for S3 and AWS CloudFront service
 
 4.Define the CDK Stack Edit lib/static-website-cdk-stack.ts to define the infrastructure:
-
 
 5.Create the Website Content <! -- website/index.html -->
 
